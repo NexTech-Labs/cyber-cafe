@@ -1,0 +1,118 @@
+@media only screen and (min-width: 1366px) and (max-width: 1920px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .icon {
+        right: -51px !important;
+    }
+    .card-text {
+        font-size: 11px !important;
+    }
+    .mainx h1{
+        font-size: 33px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .icon {
+        right: -50px !important;
+    }
+    .wrapper {
+        padding: 45px !important;
+        position: relative;
+        top: 5rem;
+    }
+    .main-wrapper {
+        border-radius: 8rem 8rem 0 0 !important;
+        padding: 35px !important;
+    }
+    .mainx{
+        text-align: center;
+        padding: 34px 116px !important;
+    }
+    .btnz{
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 320px) and (max-width: 519px) {
+    .wrapper {
+        padding: 10px !important;
+        position: relative;
+        top: 10rem;
+    }
+    .input_main {
+        padding: 22px !important;
+    }
+    .wrapper .text-help {
+        text-align: center !important;
+    }
+    .icon {
+        width: 60px !important;
+        height: 55px !important;
+        right: -49px !important;
+    }
+    .input-wrapper {
+        margin-left: -40px !important;
+    }
+    .suggestion {
+        display: block !important;
+        text-align: end !important;
+    }
+    .suggestion h3 {
+        text-align: end !important;
+    }
+    .main-wrapper {
+        border-radius: 5rem 5rem 0 0 !important;
+        padding: 5px !important;
+    }
+    .description {
+        padding: 20px !important;
+    }
+    .description h1 {
+        font-size: 19px !important;
+        margin-bottom: 1rem !important;
+    }
+    .description span {
+        font-size: 10px !important;
+    }
+    button.accordion-button.collapsed {
+        font-size: 12px !important;
+        padding: 10px 12px !important;
+    }
+    button.accordion-button {
+        font-size: 12px !important;
+        padding: 10px 12px !important;
+    }
+    .mainx {
+        padding: 20px 25px !important;
+        text-align: center !important;
+    }
+    .mainx h1 {
+        font-size: 23px !important;
+    }
+    .mainx:last-child {
+        font-size: 12px !important;
+    }
+    .btnz button {
+        padding: 9px 14px !important;
+        margin-top: 10px !important;
+    }
+    .text-help h1 {
+        font-size: 25px !important;
+    }
+    .data {
+        padding: 20px !important;
+    }
+    .accordion-body li {
+        font-size: 12px !important;
+    }
+    .suggestion button {
+        font-size: 13px !important;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 319px) {}

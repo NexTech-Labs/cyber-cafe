@@ -1,0 +1,174 @@
+html , body{
+    padding: auto;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #FAFBFE !important;
+    color: #595959 !important;
+}
+.wrapper{
+    padding: 90px;
+}
+.wrapper img{
+    width: 100%;
+}
+#banner{
+    background-image: url(../img/banner-img.png);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.wrapper .text-help{
+    text-align: end;
+    margin-bottom: 1rem;
+    color: white;
+}
+.input_main{
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+.icon{
+    background-color: #595959;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    right: -53px;
+    cursor: pointer;
+}
+.input-wrapper{
+    display: flex;
+    align-items: center;
+}
+.input {
+    width: 100%;
+}
+.input input{
+    border-radius: 30px;
+    width: 100%;
+    padding: 15px 70px;
+    border: 1px solid #595959 !important;
+    outline: none !important;
+}
+.suggestion{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    padding-top: 20px;
+}
+.suggestion button{
+    border-radius: 12px !important;
+    color: black;
+    background-color: #EEF3FB !important;
+    border: none;
+}
+.suggestion button:hover{
+    color: black;
+}
+.suggestion button:disabled{
+    color: black;
+}
+.data{
+    padding: 30px;
+}
+.card{
+    height: 200px;
+    display: flex !important;
+    padding: 40px;
+    align-items: center;
+    border-radius: 10px;
+    border: none !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.card-text{
+    margin-top: 1rem;
+    font-weight: 500;
+}
+.bg-active{
+    background-color: #595959 !important;
+    color: white;
+}
+.card:hover{
+    background-color: #595959 !important;
+    color: white;
+}
+.main-wrapper{
+    background-color: white;
+    width: 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-top: 3rem;
+    border-radius: 12rem 12rem 0 0;
+    padding: 60px;
+}
+.description{
+    padding: 30px;
+}
+.btn-outline-info.active{
+    color: white;
+}
+.btn-outline-info:hover {
+    color: white !important;
+}
+.butons button{
+    padding: 12px 25px;
+}
+.btn-outline-info:focus{
+    outline: none !important;
+    box-shadow: none !important;
+
+}
+.butons button:last-child:hover{
+    color: white;
+
+}
+.accordion-button:not(.collapsed){
+    color: black;
+    background-color: #EEF3FB;
+    border: 1px solid #33BFDF;
+}
+.accordion-button{
+    color: black;
+    background-color: #EEF3FB;
+    border: 1px solid #33BFDF;
+    outline: none;
+    display: flex;
+    gap: 20px;
+    border-radius: 10px !important;
+    font-weight: 500;
+}
+.accordion-item{
+    border: 1px solid #33BFDF !important;
+    border-radius: 10px !important;
+    margin-top: 1rem !important;
+}
+.accordion-button:focus {
+box-shadow: none !important;
+}
+.mainx{
+    background-image: url(../img/poster.jpg);
+    background-repeat: no-repeat;
+    padding: 60px 125px;
+    border-radius: 25px;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.705);
+    background-blend-mode: multiply;
+    margin-bottom: 1rem;
+    color: white;
+}
+.btnz button
+{
+    padding: 14px 30px;
+    color: white;
+}
+.btnz button:hover
+{
+    color: white;
+}
